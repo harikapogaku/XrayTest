@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Attestr Suite" >
+    <test name="Attestr Tests">
+        <classes>
+            <class name="com.attestr.runners.LoginPageTest"> </class>
+            <class name="com.attestr.runners.HomePageTest"> </class>
+            <class name="com.attestr.runners.CheckXPageTest"> </class>
+
+            <class name="com.attestr.runners.BankAccountPageTest"> </class>
+
+
+        </classes>
+    </test>
+</suite>
